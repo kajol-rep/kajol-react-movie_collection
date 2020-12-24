@@ -46,7 +46,12 @@ export default function App() {
   }
   return (
     <div className="App">
-      <h1>🎦 movie collection</h1>
+      <h1>
+        <span aria-label="movie_cam" role="img">
+          🎦
+        </span>
+        movie collection
+      </h1>
       <p style={{ fontSize: "smaller" }}>
         {" "}
         Checkout my favorite movies. Please select a genre of your choice to get
